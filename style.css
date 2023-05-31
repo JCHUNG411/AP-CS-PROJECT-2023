@@ -1,11 +1,10 @@
 *{
-    margin: 2;
-    padding: 0;
+    margin: 2; /*used to create space around elements, outside of any defined borders*/
+    padding: 0; /*generate space around an element's content, inside of any defined borders.*/
     font-family: 'poppins', san-serif;
-    box-sizing: border-box
+    box-sizing: border-box /*include the padding and border in an element's total width and height*/
 }
-.format{
-    background-size: cover;
+.format{ /*info within div class in index.html*/
     align-items: center;
     justify-content: center;
 }
